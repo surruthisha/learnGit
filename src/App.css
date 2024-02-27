@@ -1,0 +1,49 @@
+.container {
+  background-color: #EDE0D4;
+  padding: 30px;
+  border-radius: 0px;
+  text-align: center;
+  width: 40%;
+  margin: 100px 15% 0 15%;
+  height: 400px;
+  float: left;
+  color:#5C5454;
+}
+
+.image {
+  position: absolute;
+    top: 50%;
+    left: 75%;
+    width: 35%;
+    height:90%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+.image img {
+  width: 60%; /* Change from 700% */
+  height: auto; /* Adjust the height automatically based on the width */
+  border: none;
+}
+
+.buttons {
+  margin-top: 200px;;
+  
+}
+
+.button {
+  background-color: #9C6644;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #73421d;
+}
